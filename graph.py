@@ -12,7 +12,7 @@ class Graph:
 		return self.graph[v]
 	
 	def getVerts(self):
-		return self.graph.keys()
+		return sorted(self.graph.keys())
 	
 	def toDot(self):
 		edges = set()
