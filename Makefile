@@ -19,6 +19,5 @@ $(appdfs): $(appdfs_obj)
 	g++ $(CPPFLAGS) $(appdfs_obj) -o $@
 
 clean:
-	-@ rm -f $(appgraph_obj) $(appdfs_obj)\
-	$(appgraph) $(appdfs)
+	-@ rm -f $(appgraph_obj) $(appdfs_obj) $(appgraph) $(appdfs)
 
